@@ -1,0 +1,129 @@
+.projecttext p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 560px;
+    text-align: center;
+    margin: auto;
+    margin-top: 25px;
+}
+
+
+
+.levelimg {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.levelimg:after {
+    position: absolute;
+    content: "";
+    left: -121px;
+    background: #E9F1FF;
+    border: 3.64454px solid rgba(76, 110, 245, 0.1);
+    border-radius: 36px 36px 0 36px;
+    transform: matrix(0.87, 0.5, -0.87, 0.5, 0, 0);
+    Width: 500px;
+    Height: 906px;
+    bottom: -36%;
+
+}
+
+.levelimg img {
+    position: relative;
+    z-index: 1;
+    max-width: 400px;
+}
+
+.levelinfo h2 {
+    font-weight: 700;
+    font-size: 53.3333px;
+    line-height: 67px;
+    margin-bottom: 20px;
+}
+
+.levelinfo ul li:last-child {
+    max-width: 470px;
+}
+
+.levelinfo ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-left: 20px;
+}
+
+.levelinfo ul li span {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 37px;
+}
+
+.levelinfo ul li {
+    font-size: 20px;
+}
+
+section.level .grid.grid-cols-2 {
+    height: 100vh;
+}
+
+.nextlevel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nextlevel:after {
+    content: "";
+    position: absolute;
+    bottom: -4%;
+    right: -81px;
+    width: 512px;
+    height: 1003px;
+    background: #E9F1FF;
+    border: 3.64454px solid rgba(76, 110, 245, 0.1);
+    border-radius: 36px 0 36px 36px;
+    transform: matrix(-0.87, -0.5, -0.87, 0.5, 0, 0);
+}
+
+.nextlevel img {
+    position: relative;
+    z-index: 1;
+}
+
+section.level {
+    overflow: hidden;
+}
+
+.thridlevel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thridlevel img {
+    position: relative;
+    z-index: 1;
+    width: 470px;
+}
+
+.thridlevel:after {
+    position: absolute;
+    content: "";
+    left: -120px;
+    background: #E9F1FF;
+    border: 3.64454px solid rgba(76, 110, 245, 0.1);
+    border-radius: 36px 36px 0 36px;
+    transform: matrix(0.87, 0.5, -0.87, 0.5, 0, 0);
+    Width: 500px;
+    Height: 1000px;
+    top: 0;
+}
+
+section.level {
+    padding: 100px 0 140px 0;
+}

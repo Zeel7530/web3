@@ -1,0 +1,55 @@
+section.webgrants {
+    height: 100vh;
+    background-image: url(../../assets/images/webgarnt.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: bottom;
+}
+
+.webgrantsgallery img {
+    max-width: 540px;
+}
+
+
+section.webgrants.bg-\[\#\] {
+    display: flex;
+    align-items: center;
+}
+
+.webgrantsformet h1 {
+    font-weight: 600;
+    font-size: 77px;
+    line-height: 117px;
+    max-width: 511px;
+}
+
+
+.webgrantsformet p {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.container {
+    max-width: 1440px;
+}
+
+.getbtn {
+    padding: 20px;
+    background: #FAB247;
+    border-radius: 11px;
+    transition: all 0.5s linear;
+}
+
+.getbtn:hover {
+    color: #FAB247;
+    background: #fff;
+}
+
+.getstartbtn.flex {
+    margin-top: 55px;
+}

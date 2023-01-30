@@ -1,0 +1,85 @@
+.\.footerlogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.foundation {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(103 141 204 / 10%);
+    padding: 27px 0;
+}
+
+
+ul.home {
+    border-top: 1px solid rgb(103 141 204 / 10%);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.terms {
+    display: flex;
+}
+
+.terms p:last-child {
+    margin-left: 40px;
+}
+
+.foundation p {
+    font-weight: 450;
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'poppins';
+}
+
+
+
+.threedifoundation ul.home.flex li {
+    margin: 0 33px;
+
+}
+
+ul.facebook.flex {
+    column-gap: 30px;
+}
+
+.threedifoundation {
+    padding: 31px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul.facebook {
+    margin-top: 46px;
+}
+
+.footerend.bg-\[\#001840\] {
+    padding-top: 100px;
+}
+
+ul.home li a {
+    font-family: 'poppins';
+}
+
+.foundation p {
+    font-family: 'poppins'
+}
+
+ul.facebook.flex li {
+    transition: all 0.5s linear;
+
+}
+
+ul.facebook.flex li:hover {
+    transform: translateY(-10px);
+}
+
+ul.facebook.flex li:hover svg path {
+    fill: #FAB247 !important;
+}

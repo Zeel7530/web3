@@ -1,0 +1,19 @@
+.items img {
+    margin: auto;
+    opacity: 0.3;
+    transition: all 0.5s linear;
+}
+
+.items img:hover {
+    opacity: 1;
+}
+
+
+.polkadot {
+    padding: 100px 0;
+}
+
+.polkadot .slick-track {
+    display: flex;
+    align-items: center !important;
+}

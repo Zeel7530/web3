@@ -1,0 +1,999 @@
+@media only screen and (max-width: 1535px) {
+    .container {
+        max-width: 1366px;
+    }
+}
+
+@media only screen and (max-width: 1429px) {
+    .container {
+        max-width: 1150px !important;
+    }
+
+    .nextlevel:after {
+        height: 840px;
+        right: -100px;
+        width: 473px;
+        bottom: -10px;
+    }
+
+    .webgrantsgallery img {
+        max-width: 450px;
+    }
+
+    .webgrantsformet h1 {
+        font-size: 63px;
+        line-height: 95px;
+    }
+
+    .webgrantsformet p {
+        max-width: 550px;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .getstartbtn.flex {
+        margin-top: 35px;
+    }
+
+    .projecttext h2 {
+        font-size: 48px;
+    }
+
+    .projectformet p {
+        font-size: 22px;
+        line-height: 32px;
+    }
+
+    .projectimg img {
+        width: 480px;
+    }
+
+    section.project {
+        background-position: center;
+    }
+
+    section.level {
+        padding-top: 60px;
+    }
+
+    .projecttext p {
+        font-size: 18px;
+        margin-top: 30px;
+    }
+
+    .levelimg img {
+        max-width: 330px;
+    }
+
+    .levelimg:after {
+        left: -22%;
+        height: 768px;
+        width: 422px;
+        bottom: -35%;
+    }
+
+    .levelinfo h2 {
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+
+    .levelinfo ul li span {
+        font-size: 22px;
+    }
+
+    .levelinfo ul li {
+        font-size: 18px;
+    }
+
+    .nextlevel img {
+        max-width: 495px;
+    }
+
+    .thridlevel:after {
+        left: -30%;
+        height: 780px;
+        top: 11%;
+    }
+
+    .thridlevel img {
+        width: 430px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .container {
+        max-width: 950px !important;
+    }
+
+    nav ul {
+        justify-content: end;
+    }
+
+    .webgrantsgallery img {
+        max-width: 400px;
+    }
+
+    .webgrantsformet h1 {
+        font-size: 52px;
+    }
+
+    .webgrantsformet p {
+        max-width: 440px;
+    }
+
+    .getstartbtn.flex {
+        margin-top: 30px;
+    }
+
+    .getbtn {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .projecttext h2 {
+        font-size: 40px;
+    }
+
+    .projecttext h2:after {
+        bottom: -6px;
+    }
+
+    .projectformet p {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .projectimg img {
+        width: 440px;
+    }
+
+    .levelinfo h2 {
+        font-size: 43px;
+    }
+
+    .levelinfo ul li span {
+        font-size: 20px;
+    }
+
+    .levelinfo ul li {
+        font-size: 17px;
+    }
+
+    .levelimg img {
+        max-width: 299px;
+    }
+
+    .levelimg:after {
+        bottom: -19%;
+        height: 640px;
+        width: 400px;
+        left: -35%;
+    }
+
+    .nextlevel img {
+        max-width: 428px;
+    }
+
+    .nextlevel:after {
+        height: 750px;
+        right: -31%;
+        bottom: 45px;
+        width: 450px;
+    }
+
+    .thridlevel:after {
+        height: 650px;
+        width: 440px;
+        left: -43%;
+        top: 16%;
+    }
+
+    .thridlevel img {
+        width: 378px;
+    }
+
+    section.level {
+        padding-bottom: 70px;
+    }
+
+    .footerend.bg-\[\#001840\] {
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .threedifoundation ul.home.flex li {
+        margin: 0 20px;
+    }
+
+    button.cursor-pointer {
+        display: block;
+        position: absolute;
+        top: 17px;
+        right: 0;
+    }
+
+    html.show-menu {
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav ul.navmenu {
+        display: none;
+    }
+
+    .w-full.relative.flex.justify-between.md\:w-auto.px-4.lg\:static.lg\:block.lg\:justify-start {
+        width: 100%;
+    }
+
+    button.cursor-pointer {
+        color: #FFF;
+    }
+
+
+    button.closemenu.inline-flex.items-center.justify-center.rounded-md.bg-white.text-gray-400.hover\:bg-gray-100.hover\:text-gray-500.focus\:outline-none.focus\:ring-2.focus\:ring-inset.focus\:ring-indigo-500 {
+        display: none;
+    }
+
+    button.closemenu.inline-flex.items-center.justify-center.rounded-md.bg-white.text-gray-400.hover\:bg-gray-100.hover\:text-gray-500.focus\:outline-none.focus\:ring-2.focus\:ring-inset.focus\:ring-indigo-500 {
+        display: block;
+    }
+
+    .show-menu a.text-sm.font-bold.leading-relaxed.inline-block.mr-4.py-2.whitespace-nowrap.uppercase.text-white img {
+        display: none;
+    }
+
+    .show-menu button.closemenu {
+        display: block;
+        z-index: 9;
+    }
+
+    ul.navmenu.flex.flex-col.md\:flex-row.list-none.ml-auto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    button.closemenu {
+        top: 20px;
+        font-size: 24px;
+        right: 42px;
+        z-index: 9;
+        color: #000;
+        position: fixed;
+        background: transparent;
+    }
+
+
+
+    div#example-navbar-warning {
+        position: fixed;
+        left: 0;
+        top: 0;
+        transform: translateX(100%);
+        transition: all 0.5s ease 0s;
+        background: #FFF;
+        width: 100%;
+        height: 100vh;
+        z-index: 3;
+        display: block !important;
+        right: 0;
+        overflow: auto;
+    }
+
+    .show-menu div#example-navbar-warning {
+        left: 0;
+        transform: translateX(0)
+    }
+
+    ul.navmenu.flex.flex-col.md\:flex-row.list-none.ml-auto {
+        row-gap: 15px;
+    }
+
+    .show-menu button#togle {
+        display: block;
+        background: none;
+        position: fixed;
+    }
+
+    .show-menu button.cursor-pointer {
+        display: none;
+    }
+
+    .show-menu nav ul.navmenu {
+        display: block;
+    }
+
+    li.nav-item a {
+        color: #000;
+    }
+
+
+
+    section.webgrants .grid.grid-cols-2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .webgrantsgallery.m-auto {
+        order: -1;
+    }
+
+    .webgrantsgallery img {
+        max-width: 350px;
+    }
+
+    .webgrantsformet {
+        text-align: center;
+    }
+
+    .webgrantsformet h1 {
+        font-size: 45px;
+        margin: auto;
+        line-height: 80px;
+
+    }
+
+    .polkadot {
+        padding: 70px 0;
+    }
+
+    .webgrantsformet p {
+        margin: auto;
+        text-align: center;
+    }
+
+    .getbtn {
+        margin: auto;
+    }
+
+    section.webgrants {
+        height: auto;
+        padding: 90px 0 20px;
+    }
+
+    .items img {
+        max-width: 165px;
+    }
+
+    section.project .grid.grid-cols-2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .polkadot {
+        padding: 60px 0;
+    }
+
+    section.project {
+        height: auto;
+    }
+
+    .projecttext {
+        margin-bottom: 40px;
+    }
+
+    .projectimg img {
+        width: 400px;
+    }
+
+    .projecttext h2 {
+        font-size: 32px;
+    }
+
+    .projecttext h2:after {
+        bottom: 0;
+    }
+
+    .mangement {
+        display: block;
+    }
+
+    .projectformet p {
+        max-width: 648px;
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .projectformet {
+        margin-top: 20px;
+    }
+
+    section.level {
+        padding-top: 30px;
+    }
+
+    .projecttext h2:after {
+        bottom: 9px;
+        width: 40px;
+        height: 3px;
+    }
+
+    .projecttext h2 {
+        font-size: 28px;
+    }
+
+    .projecttext p {
+        line-height: 24px;
+        margin-top: 10px;
+        font-size: 17px;
+    }
+
+    section.level {
+        height: auto;
+    }
+
+    section.level .grid.grid-cols-2 {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .levelimg:after {
+        left: 50%;
+        height: 337px;
+        width: 90%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 35px;
+
+    }
+
+    .nextlevel {
+        order: -1;
+    }
+
+    .nextlevel:after {
+        left: 50%;
+        height: 337px;
+        width: 90%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 35px;
+    }
+
+    .levelinfo h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .levelinfo ul {
+        row-gap: 5px;
+    }
+
+    .levelinfo ul li:last-child {
+        line-height: 17px;
+    }
+
+    .nextlevel img {
+        max-width: 400px;
+    }
+
+    .levelinfo.m-auto {
+        width: 90%;
+    }
+
+    .thridlevel:after {
+        left: 50%;
+        height: 337px;
+        width: 90%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 35px;
+
+    }
+
+    .thridlevel img {
+        width: 350px;
+    }
+
+    section.level {
+        padding-bottom: 40px;
+    }
+
+    .threedifoundation {
+        padding: 20px 0;
+    }
+
+    ul.home.flex li {
+        margin: 0 20px;
+    }
+
+    ul.home li a {
+        font-size: 16px;
+    }
+
+    ul.facebook {
+        margin-top: 30px;
+    }
+
+    .foundation p {
+        font-size: 14px;
+    }
+
+    .foundation {
+        padding: 15px 0;
+        margin: 0 18px;
+    }
+
+    .footerend.bg-\[\#001840\] {
+        padding-top: 30px;
+    }
+
+    section.project {
+        padding-bottom: 41px;
+    }
+
+    section.level .grid.grid-cols-2 {
+        height: calc(100vh - 5vh);
+    }
+
+    section.project {
+        padding: 15px 0 33px 0;
+    }
+
+    .projecttext p {
+        font-size: 14px;
+        line-height: 19px;
+        max-width: 410px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    ul.home li a {
+        font-size: 14px;
+    }
+
+    ul.home {
+        width: 85%;
+    }
+
+    .webgrantsformet h1 {
+        font-size: 35px;
+    }
+
+    .webgrantsformet p {
+        line-height: 20px;
+    }
+
+    .getbtn {
+        padding: 13px;
+        font-size: 15px;
+    }
+
+    section.webgrants {
+        padding-bottom: 30px;
+    }
+
+    .polkadot {
+        padding: 60px 0;
+    }
+
+    .projectformet p {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 500px;
+    }
+
+    .projectformet {
+        margin-top: 28px;
+    }
+
+    section.project {
+        padding-bottom: 23px;
+    }
+
+    section.project {
+        padding-bottom: 28px;
+    }
+
+    section.level {
+        padding-top: 0;
+    }
+
+    .projecttext p {
+        font-size: 16px;
+        max-width: 500px;
+    }
+
+    .projecttext {
+        margin-bottom: 30px;
+    }
+
+
+
+
+    .foundation {
+        display: block;
+    }
+
+    .terms a {
+        margin-left: 0 !important;
+    }
+
+    .terms a:last-child {
+        margin-left: 15px !important;
+    }
+
+    .foundation p {
+        margin-left: 0 !important;
+        margin: 5px;
+    }
+
+    .foundation {
+        text-align: center;
+    }
+
+    .terms {
+        display: flex;
+        justify-content: center;
+    }
+
+    .\.footerlogo img {
+        max-width: 120px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+    .webgrantsformet h1 {
+        font-size: 30px;
+        line-height: 64px;
+    }
+
+    .threedifoundation ul.home.flex li {
+        margin: 0 15px;
+    }
+
+    button.closemenu {
+        top: 15px;
+    }
+
+    .webgrantsformet p {
+        max-width: 400px;
+        font-size: 12px;
+    }
+
+    .getbtn {
+        font-size: 12px;
+        padding: 12px;
+    }
+
+    .projecttext h2 {
+        font-size: 24px;
+    }
+
+    .projecttext h2:after {
+        width: 25px;
+    }
+
+    .items img {
+        max-width: 150px;
+    }
+
+    .polkadot {
+        padding: 50px 0;
+    }
+
+    .webgrantsformet {
+        margin-top: 10px;
+    }
+
+    section.webgrants {
+        padding-bottom: 36px;
+    }
+
+    .projectimg img {
+        width: 350px;
+    }
+
+    .projecttext {
+        margin-bottom: 20px;
+    }
+
+    .projectformet p {
+        font-size: 12px;
+        max-width: 427px;
+    }
+
+
+
+    .projecttext p {
+        font-size: 12px;
+        line-height: 19px;
+        max-width: 410px;
+    }
+
+    .levelimg img {
+        max-width: 260px;
+    }
+
+
+
+    .levelinfo h2 {
+        font-size: 23px;
+        margin-bottom: 0;
+    }
+
+    .levelinfo ul li span {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+    .levelinfo ul li {
+        font-size: 13px;
+    }
+
+    .levelinfo ul li:last-child {
+        line-height: 10px;
+    }
+
+    .levelinfo ul {
+        row-gap: 0;
+    }
+
+
+    .nextlevel img {
+        max-width: 336px;
+    }
+
+    .thridlevel img {
+        width: 310px;
+    }
+
+    ul.home {
+        width: 100%;
+    }
+
+    .levelimg:after {
+        height: 290px;
+    }
+
+    .nextlevel:after {
+        height: 290px;
+    }
+
+    .thridlevel:after {
+        height: 290px;
+    }
+
+    section.level {
+        padding-bottom: 15px;
+    }
+
+    nav img {
+        max-width: 100px;
+    }
+
+    button.cursor-pointer {
+        top: 12px;
+    }
+
+    .show-menu button#togle {
+        right: 25px;
+        top: 15px;
+    }
+
+    ul.home li a {
+        font-size: 12px;
+
+    }
+
+    ul.facebook.flex {
+        column-gap: 15px;
+        margin-top: 20px;
+    }
+
+    ul.home.flex li {
+        margin: 0 15px;
+    }
+
+    ul.facebook.flex li svg {
+        width: 38px;
+    }
+
+    ul.home {
+        width: 83%;
+    }
+
+    section.level .grid.grid-cols-2 {
+        height: calc(100vh - 25vh);
+    }
+
+    .foundation p {
+        font-size: 12px;
+    }
+
+    .\.footerlogo img {
+        max-width: 100px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .webgrantsgallery img {
+        max-width: 260px;
+    }
+
+    .webgrantsformet p {
+        max-width: 350px;
+    }
+
+    .getstartbtn.flex {
+        margin-top: 25px;
+    }
+
+    .polkadot {
+        padding: 40px 0;
+    }
+
+    .projecttext h2 {
+        line-height: 66px;
+    }
+
+    .projecttext h2:after {
+        bottom: 0;
+    }
+
+    .projectformet p {
+        max-width: 330px;
+    }
+
+    .projecttext p {
+        max-width: 330px;
+    }
+
+    .levelimg:after {
+        height: 280px;
+
+    }
+
+    .levelimg img {
+        max-width: 240px;
+    }
+
+    .nextlevel img {
+        max-width: 270px;
+    }
+
+    .nextlevel:after {
+        height: 280px;
+
+    }
+
+    .nextlevel:after {
+        height: 280px;
+
+    }
+
+    .thridlevel img {
+        width: 260px;
+    }
+
+
+
+    .levelinfo ul li:last-child {
+        line-height: 21px;
+    }
+
+    .levelinfo h2 {
+        font-size: 24px;
+    }
+
+    .levelinfo ul li {
+        font-size: 14px;
+    }
+
+    .levelinfo ul li span {
+        font-size: 16px;
+    }
+
+    section.level .grid.grid-cols-2 {
+        height: calc(100vh - 20vh);
+    }
+
+    .threedifoundation ul.home.flex li {
+        margin: 0 11px;
+    }
+
+    ul.home.flex li {
+        margin: 0 10px;
+    }
+
+    nav img {
+        max-width: 90px;
+    }
+
+    ul.home {
+        width: 93%;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    .webgrantsgallery img {
+        max-width: 250px;
+    }
+
+    .webgrantsformet h1 {
+        font-size: 30px;
+    }
+
+    .webgrantsformet p {
+        max-width: 300px;
+    }
+
+    .projectimg img {
+        width: 270px;
+    }
+
+    .projectformet p {
+        font-size: 13px;
+        max-width: 280px;
+    }
+
+    .projecttext p {
+        max-width: 280px;
+        font-size: 13px;
+    }
+
+    .levelimg:after {
+        height: 250px;
+    }
+
+    .nextlevel:after {
+        height: 250px;
+    }
+
+    .thridlevel:after {
+        height: 250px;
+    }
+
+    .nextlevel img {
+        max-width: 240px;
+    }
+
+
+
+    .thridlevel img {
+        width: 240px;
+    }
+
+
+
+    .levelinfo h2 {
+        font-size: 27px;
+        line-height: 24px;
+        margin-bottom: 5px;
+    }
+
+    .projecttext h2:after {
+        bottom: 3px;
+    }
+
+    .\.footerlogo img {
+        max-width: 100px;
+    }
+
+    .threedifoundation {
+        padding: 15px 0;
+    }
+
+    .threedifoundation ul.home.flex li {
+        margin: 0 7px;
+    }
+
+    ul.home.flex li {
+        margin: 0 7px;
+    }
+
+    ul.facebook.flex li svg {
+        width: 38px;
+    }
+
+    section.level .grid.grid-cols-2 {
+        height: calc(100vh - 26vh);
+    }
+}

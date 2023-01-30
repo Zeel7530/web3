@@ -1,0 +1,54 @@
+section.project {
+    height: 100vh;
+    background-image: url(../../assets/images/projectbg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.projecttext h2 {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 83px;
+    position: relative;
+}
+
+.projecttext h2:after {
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 4px;
+    background: #000B1E;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -15px;
+}
+
+.projectformet p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    max-width: 720px;
+}
+
+.mangement {
+    display: flex;
+}
+
+p.overview {
+    margin-bottom: 20px;
+}
+
+.projecttext {
+    margin-bottom: 70px;
+}
+
+.projectformet {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center;
+}
